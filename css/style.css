@@ -89,12 +89,18 @@ h3 {
     border-radius: 0 0 10px 10px;
 }
 
-ul li {
+.menu ul li {
     display: inline-block;
     font-size: 25px;
     padding: 0 15px;
-    line-height: 35px;
+    line-height: 33px;
     color: green;
+}
+
+.menu li:hover {
+    background-color: #ffffff30;
+    color: white;
+    border-bottom: 2px solid green;
 }
 
 
@@ -102,10 +108,17 @@ ul li {
 .container {
     width: 100vw;
     height: 100vh;
-    padding-top: 15px;
+    padding: 1% 4% 1% 4%;
 }
 .contenitore {
     height: 100%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.indice {
+
 }
 
 .sotto {
@@ -119,8 +132,24 @@ aside {
     padding: 5px;
 }
 
-aside .contenitore {
-    background-color: pink;
+h4 {
+    font-size: 30px;
+    font-family: 'Finger Paint', cursive;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.pages {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    list-style-type: none;
+}
+
+.pages li:hover {
+    background-color: lightgreen;
 }
 
 main {
@@ -128,10 +157,6 @@ main {
     height: 500px;
     float: left;
     padding: 5px;
-}
-
-main .contenitore {
-    background-color: lightgreen;
 }
 
 footer {
