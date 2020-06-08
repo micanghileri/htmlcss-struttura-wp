@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Jost', sans-serif;
 }
 
 .clearfix::after {
@@ -18,7 +18,6 @@ body {
     background-position: left;
     background-repeat: repeat-y;
     background-size: cover;
-    height: 2500px;
     width: 100vw;
     position: relative;
 }
@@ -110,7 +109,7 @@ h3 {
 /* stile altri contenitori */
 .container {
     width: 100vw;
-    height: 1200px;
+    height: 1000px;
     padding: 1% 4% 1% 4%;
 }
 
@@ -122,10 +121,11 @@ h3 {
 }
 
 .contenitore-post {
-    height: 1600px;
+    height: 900px;
     background-color: white;
     border: 1px solid lightgrey;
     border-radius: 10px;
+    overflow: auto;
 }
 
 .post {
@@ -189,6 +189,7 @@ h3 {
     text-decoration: none;
     font-size: 25px;
     padding: 5px;
+    overflow: auto;
 }
 
 .tag a:hover {
@@ -209,7 +210,6 @@ aside {
 
 h4 {
     font-size: 30px;
-    font-family: 'Finger Paint', cursive;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 15px;
@@ -240,10 +240,26 @@ main {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: block;
+    margin: 0 auto;
+    width: 90%;
     height: 200px;
-    background-color: lightblue;
+    padding-top: 30px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+h5 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 15px;
+    font-family: 'Finger Paint', cursive;
+}
+
+h6 {
+    color: black;
+    text-align: center;
+    font-size: 15px;
 }
