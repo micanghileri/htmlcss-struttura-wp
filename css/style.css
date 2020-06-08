@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    height: 200px;
+    background-color: yellow;
+}
+
+.contenitore {
+    height: 100%;
+}
+
+aside {
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 5px;
+}
+
+aside .contenitore {
+    background-color: pink;
+}
+
+main {
+    width: 60%;
+    height: 500px;
+    float: left;
+    padding: 5px;
+}
+
+main .contenitore {
+    background-color: lightgreen;
+}
+
+footer {
+    height: 200px;
+    background-color: lightblue;
+}
