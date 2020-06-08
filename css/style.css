@@ -99,9 +99,17 @@ ul li {
 
 
 /* stile altri contenitori */
-
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 15px;
+}
 .contenitore {
     height: 100%;
+}
+
+.sotto {
+    margin-top: 15px;
 }
 
 aside {
